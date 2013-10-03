@@ -14,8 +14,6 @@ sap.ui.jsview("git.app", {
     	  	});
     	  	
     	  	return [button , anotherBtn];
-    	  	
-    	  	return button;
       }
 
 });
