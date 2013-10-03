@@ -9,6 +9,12 @@ sap.ui.jsview("git.app", {
     	  		text: 'Press Me'
     	  	});
     	  	
+    	  	var anotherBtn = sap.ui.commons.Button(this.createId(), {
+    	  		text: 'Another Press Me'
+    	  	});
+    	  	
+    	  	return [button , anotherBtn];
+    	  	
     	  	return button;
       }
 
