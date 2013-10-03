@@ -9,7 +9,11 @@ sap.ui.jsview("git.app", {
     	  		text: 'Press Me'
     	  	});
     	  	
-    	  	return button;
+    	  	var another = sap.ui.commons.Button(this.createId(), {
+    	  		text: 'Another Press Me'
+    	  	});
+    	  	
+    	  	return [button , another];
       }
 
 });
