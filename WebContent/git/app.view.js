@@ -5,7 +5,11 @@ sap.ui.jsview("git.app", {
       },
 
       createContent : function(oController) {
-
+    	  	var button = sap.ui.commons.Button(this.createId(), {
+    	  		text: 'Press Me'
+    	  	});
+    	  	
+    	  	return button;
       }
 
 });
